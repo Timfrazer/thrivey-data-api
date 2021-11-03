@@ -1,33 +1,37 @@
-from typing import Optional
+from typing import Optional, List
+import databases
 
 from fastapi import FastAPI
-from pydantic import BaseModel
+from db.connection import get_sesh
+from models.UserBehaviour import UserBehaviour
 
+from db.connection import get_db
+from db.model import user_behaviour_tbl
+
+
+database = get_db()
 app = FastAPI()
 
-
-class Tesla(BaseModel):
-    name: Optional[str]
-    price: Optional[float]
-    quantity: int = 0
-
-
-def make_order(tesla: Tesla):
-    # Business logic for creating a Tesla
-    return {"tesla": tesla}
-
-
 @app.get("/")
-async def index():
-    return {"index": "hi this is the index"}
+async def root():
+    return {"message": "YURT"}
+
+@app.on_event("startup")
+async def startup():
+    await database.connect()
 
 
-@app.post("/order/tesla")
-async def order_tesla(tesla: Tesla):
-    order = make_order(tesla)
-    return order
+@app.on_event("shutdown")
+async def shutdown():
+    await database.disconnect()
 
 
-@app.get("/track/{tesla_id}")
-def get_order(tesla_id: int, q: Optional[str] = None):
-    return {"tesla_id": tesla_id, "q": q}
+@app.get("/user_behaviour/", response_model=List[UserBehaviour])
+async def read_notes():
+    query = user_behaviour_tbl.select()
+    return await database.fetch_all(query)
+
+import uvicorn
+uvicorn.run(app, host='0.0.0.0', port=8081, workers=1)
+
+

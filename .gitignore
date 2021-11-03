@@ -139,3 +139,7 @@ cython_debug/
 
 # jetbrains
 .idea/
+
+# DEV Files
+runner.py
+*.db

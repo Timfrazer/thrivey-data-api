@@ -1,4 +1,4 @@
-export POSTGRES_DB=rwdb 
+export POSTGRES_DB=thriveydb 
 export POSTGRES_PORT=5432
 export POSTGRES_USER=postgres
 export POSTGRES_PASSWORD=postgres
