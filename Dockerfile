@@ -1,6 +1,8 @@
 FROM python:3.9.7-slim
 
 ENV PYTHONUNBUFFERED 1
+ENV API_PORT 8000
+ENV API_WORKER_COUNT 2
 
 EXPOSE 8000
 WORKDIR /app
@@ -11,11 +13,17 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 COPY poetry.lock pyproject.toml ./
-RUN pip install poetry==1.1 && \
-    poetry config virtualenvs.in-project true && \
-    poetry install --no-dev
+RUN pip install poetry==1.1 tox
 
 COPY . ./
 
-CMD poetry run alembic upgrade head && \
-    poetry run uvicorn --host=0.0.0.0 app.main:app
+RUN tox
+# poetry config virtualenvs.in-project true && \
+# poetry install --no-dev
+    
+
+RUN chmod u+x bin/prep-db.sh
+
+ENTRYPOINT [ "bin/prep-db.sh" ]
+
+CMD [ "bin/run-api.sh" ]
