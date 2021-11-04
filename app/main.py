@@ -1,27 +1,37 @@
-from typing import Optional, List
-
+from typing import List
+from decouple import config
 from fastapi import FastAPI
+import uvicorn
+
 from models.UserBehaviour import UserBehaviour, UserBehaviourTable
-
-from db.connection import get_db
-from db.model import user_behaviour_tbl
-from sqlalchemy.sql import text
-
+from db.connection import get_db, init_engine
+from db.model import user_behaviour_table_model
 from utils.data_shuffle import restructure_tbl_data
 
-database = get_db()
+# Conf
+DEFAULT_SQLITE_DB='sqlite:///data/thrivey.db'
+SQLALCHEMY_DATABASE_URL = config("DATABASE_URL", DEFAULT_SQLITE_DB)
+API_PORT=config("API_PORT", 8081)
+API_WORKER_COUNT=config("API_WORKER_COUNT", 1)
+
+# Init DB Conn
+db_metadata = init_engine(SQLALCHEMY_DATABASE_URL)
+database = get_db(SQLALCHEMY_DATABASE_URL)
+user_behaviour_tbl=user_behaviour_table_model(db_metadata)
+
+
+# Init FastAPI
 app = FastAPI()
 
 
+# Define routes
 @app.get("/")
 async def root():
-    return {"message": "YURT"}
+    return {"Thrivey": "Thrivey"}
 
 @app.on_event("startup")
 async def startup():
     await database.connect()
-
-
 
 @app.on_event("shutdown")
 async def shutdown():
@@ -39,7 +49,6 @@ async def read_user_behaviour_json():
     print(result)
     return result
 
-import uvicorn
-uvicorn.run(app, host='0.0.0.0', port=8081, workers=1)
+uvicorn.run(app, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
 
 
