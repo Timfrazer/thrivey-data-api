@@ -18,6 +18,7 @@ user_behaviour_tbl = Table(
     Column("thrivey_score", Integer),
     Column("user_action", String),
     Column("date_created", String),
+    Column("ipv4", String),
 )
 
 
@@ -33,6 +34,7 @@ class UserBehaviour(Base):
     thrivey_score = Column(Integer)
     user_action = Column(String)
     date_created = Column(String)
+    ipv4 = Column(String)
 
 
 
