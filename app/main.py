@@ -3,15 +3,14 @@ from decouple import config
 from fastapi import FastAPI
 import uvicorn
 
-from models.UserBehaviour import UserBehaviour, UserBehaviourTable
-from db.connection import get_db, init_engine
-from db.model import user_behaviour_table_model
-from utils.data_shuffle import restructure_tbl_data
+from app.models.UserBehaviour import UserBehaviour, UserBehaviourTable
+from app.db.connection import get_db, init_engine
+from app.db.model import user_behaviour_table_model
 
 # Conf
 DEFAULT_SQLITE_DB='sqlite:///data/thrivey.db'
 SQLALCHEMY_DATABASE_URL = config("DATABASE_URL", DEFAULT_SQLITE_DB)
-API_PORT=config("API_PORT", 8081)
+API_PORT=config("API_PORT", 8000)
 API_WORKER_COUNT=config("API_WORKER_COUNT", 1)
 
 # Init DB Conn
@@ -27,7 +26,7 @@ app = FastAPI()
 # Define routes
 @app.get("/")
 async def root():
-    return {"Thrivey": "Thrivey"}
+    return {"Thrivey": "OK"}
 
 @app.on_event("startup")
 async def startup():
@@ -45,10 +44,12 @@ async def read_user_behaviour():
 
 @app.get("/user_behaviour_json/", response_model=List[UserBehaviour])
 async def read_user_behaviour_json():
+    from app.utils.data_shuffle import restructure_tbl_data
     result = await restructure_tbl_data(database, user_behaviour_tbl)
     print(result)
     return result
 
-uvicorn.run(app, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
+def run_server():
+    uvicorn.run(app, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
 
 
