@@ -1,11 +1,12 @@
 from typing import List
 from decouple import config
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 import uvicorn
 
 from app.models.UserBehaviour import UserBehaviour, UserBehaviourTable
 from app.db.connection import get_db, init_engine
 from app.db.model import user_behaviour_table_model
+from app.utils.data_shuffle import restructure_tbl_data
 
 # Conf
 DEFAULT_SQLITE_DB='sqlite:///data/thrivey.db'
@@ -44,10 +45,15 @@ async def read_user_behaviour():
 
 @app.get("/user_behaviour_json/", response_model=List[UserBehaviour])
 async def read_user_behaviour_json():
-    from app.utils.data_shuffle import restructure_tbl_data
     result = await restructure_tbl_data(database, user_behaviour_tbl)
     print(result)
     return result
+
+@app.post("/user_behaviour_json/")
+async def validate_user_behaviour(data: UserBehaviour):
+    print(f"Type: {type(data)} \n{data}")
+    return {"isValid": True}
+
 
 def run_server():
     uvicorn.run(app, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
