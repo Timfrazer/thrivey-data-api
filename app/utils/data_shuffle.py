@@ -28,7 +28,7 @@ async def restructure_tbl_data(database: Database, table: Table):
         restructured_record = {
             "id": rec[id_index],
             "user": {
-                "user_id": rec[user_id_index],
+                "id": rec[user_id_index],
                 "first_name": rec[first_name_index],
                 "last_name": rec[last_name_index],
                 "user_created": rec[user_created_index],

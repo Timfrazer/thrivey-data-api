@@ -8,6 +8,7 @@ user_file='data/user.json'
 behaviour_file='data/behaviour.json'
 sqlite='data/thrivey.db'
 
+print('opening files..')
 # Open json data files
 with open(user_file) as user_json_file:
     user_data = json.load(user_json_file)

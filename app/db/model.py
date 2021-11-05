@@ -4,11 +4,35 @@ from sqlalchemy import Column, String, Integer
 from sqlalchemy import Table
 from sqlalchemy.ext.declarative import declarative_base
 
-# from db.connection import engine
-# Base = declarative_base()
-# metadata = MetaData()
 
-def user_behaviour_table_model(metadata):
+def user_table_model(metadata) -> Table:
+    user_tbl = Table(
+        "user",
+        metadata,
+        Column("index", Integer, primary_key=True),
+        Column("id", Integer),
+        Column("first_name", String),
+        Column("last_name", String),
+        Column("user_created", String),
+        Column("thrivey_score", Integer),
+    )
+    return user_tbl
+
+def behaviour_table_model(metadata) -> Table:
+    behaviour_tbl = Table(
+        "behaviour",
+        metadata,
+        Column("index", Integer, primary_key=True),
+        Column("id", Integer),
+        Column("user_id", Integer),
+        Column("session_id", Integer),
+        Column("user_action", String),
+        Column("date_created", String),
+        Column("ipv4", String),
+    )
+    return behaviour_tbl
+
+def user_behaviour_table_model(metadata) -> Table:
     user_behaviour_tbl = Table(
         "user_behaviours",
         metadata,
@@ -25,6 +49,9 @@ def user_behaviour_table_model(metadata):
     )
     return user_behaviour_tbl
 
+# from db.connection import engine
+# Base = declarative_base()
+# metadata = MetaData()
 
 # class UserBehaviourModel(Base):
 #     __tablename__ = "user_behaviours"

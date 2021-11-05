@@ -146,3 +146,4 @@ runner.py
 
 # Postgres
 postgres-data/
+.python-version

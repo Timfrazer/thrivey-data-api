@@ -1,5 +1,5 @@
 import pytest
-from starlette.testclient import TestClient
+from fastapi.testclient import TestClient
 from multiprocessing import Process
 
 from app.main import app, run_server

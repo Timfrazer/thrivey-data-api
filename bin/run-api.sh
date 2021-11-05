@@ -5,6 +5,5 @@ if [ -z "$API_PORT"  ] && [ -z "$API_WORKER_COUNT" ];then
     API_WORKER_COUNT=2
 fi
 
-poetry run alembic upgrade head && \
-    poetry run uvicorn --host=0.0.0.0 --port ${API_PORT} \
-      --workers ${API_WORKER_COUNT} app.main:app
+poetry run uvicorn --host=0.0.0.0 --port ${API_PORT} \
+    --workers ${API_WORKER_COUNT} app.main:app
