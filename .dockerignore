@@ -1,0 +1,8 @@
+.tox
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.cache
+.git
+.pytest_cache

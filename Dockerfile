@@ -18,11 +18,9 @@ RUN pip install poetry==1.1 tox
 COPY . ./
 
 RUN tox
-# poetry config virtualenvs.in-project true && \
-# poetry install --no-dev
     
 
-RUN chmod u+x bin/prep-db.sh
+RUN chmod u+x bin/*.sh
 
 ENTRYPOINT [ "bin/prep-db.sh" ]
 
