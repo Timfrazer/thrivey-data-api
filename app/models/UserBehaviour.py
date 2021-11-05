@@ -2,7 +2,7 @@ from pydantic import BaseModel, StrictInt, StrictStr, conlist
 from typing import  Optional
 
 class User(BaseModel):
-    user_id: StrictInt
+    id: StrictInt
     first_name: StrictStr
     last_name: StrictStr
     user_created: str
