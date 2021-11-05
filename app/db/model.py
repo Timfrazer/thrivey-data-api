@@ -4,9 +4,6 @@ from sqlalchemy import Column, String, Integer
 from sqlalchemy import Table
 from sqlalchemy.ext.declarative import declarative_base
 
-# from db.connection import engine
-# Base = declarative_base()
-# metadata = MetaData()
 
 def user_behaviour_table_model(metadata):
     user_behaviour_tbl = Table(
@@ -25,6 +22,9 @@ def user_behaviour_table_model(metadata):
     )
     return user_behaviour_tbl
 
+# from db.connection import engine
+# Base = declarative_base()
+# metadata = MetaData()
 
 # class UserBehaviourModel(Base):
 #     __tablename__ = "user_behaviours"

@@ -19,7 +19,6 @@ db_metadata = init_engine(SQLALCHEMY_DATABASE_URL)
 database = get_db(SQLALCHEMY_DATABASE_URL)
 user_behaviour_tbl=user_behaviour_table_model(db_metadata)
 
-
 # Init FastAPI
 app = FastAPI()
 
@@ -38,18 +37,18 @@ async def shutdown():
     await database.disconnect()
 
 
-@app.get("/user_behaviour/", response_model=List[UserBehaviourTable])
+@app.get("/user_behaviour/table", response_model=List[UserBehaviourTable])
 async def read_user_behaviour():
     query = user_behaviour_tbl.select()
     return await database.fetch_all(query)
 
-@app.get("/user_behaviour_json/", response_model=List[UserBehaviour])
+@app.get("/user_behaviour/json", response_model=List[UserBehaviour])
 async def read_user_behaviour_json():
     result = await restructure_tbl_data(database, user_behaviour_tbl)
     print(result)
     return result
 
-@app.post("/user_behaviour_json/")
+@app.post("/user_behaviour/validate")
 async def validate_user_behaviour(data: UserBehaviour):
     print(f"Type: {type(data)} \n{data}")
     return {"isValid": True}
