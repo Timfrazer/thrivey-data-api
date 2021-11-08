@@ -46,11 +46,6 @@ async def read_user_behaviour_json():
     result = await restructure_tbl_data(database, user_behaviour_tbl)
     return result
 
-@user_behaviour_json_router.get("/json1")
-async def read_user_behaviour_json1():
-    result = restructure_tbl_data(database, user_behaviour_tbl)
-    return await result
-
 @user_behaviour_router.post("/validate")
 async def validate_user_behaviour(data: UserBehaviour):
     logger.info(f"Type: {type(data)} \n{data}")
