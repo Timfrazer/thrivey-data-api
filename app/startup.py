@@ -37,7 +37,7 @@ ordered_user_behaviour_df = user_behaviour_df.reindex(columns=column_order)
 # Write out DF's as sqlite tbls
 user_df.to_sql('user', conn, if_exists='replace', index=True)
 behaviour_df.to_sql('behaviour', conn, if_exists='replace', index=True)
-ordered_user_behaviour_df.to_sql('user_behaviours', conn, if_exists='replace', index=True)
-print(pd.read_sql('select * from user_behaviours', conn))
+ordered_user_behaviour_df.to_sql('user_behaviour', conn, if_exists='replace', index=True)
+print(pd.read_sql('select * from user_behaviour', conn))
 
 

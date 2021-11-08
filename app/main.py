@@ -5,7 +5,7 @@ import uvicorn
 
 from app.models.UserBehaviour import User, Behaviour, UserBehaviour, UserBehaviourTable
 from app.db.connection import get_db, init_engine
-from app.db.model import user_behaviour_table_model, user_table_model, behaviour_table_model
+from app.db.model import user_behaviour_table_model, user_behaviour_json_model, user_table_model, behaviour_table_model
 
 # Conf
 DEFAULT_SQLITE_DB='sqlite:///data/thrivey.db'
@@ -19,6 +19,7 @@ database = get_db(SQLALCHEMY_DATABASE_URL)
 user_tbl=user_table_model(db_metadata)
 behaviour_tbl=behaviour_table_model(db_metadata)
 user_behaviour_tbl=user_behaviour_table_model(db_metadata)
+user_behaviour_json=user_behaviour_json_model(db_metadata)
 
 # Init FastAPI
 api = FastAPI()
@@ -42,10 +43,11 @@ def run_server():
     uvicorn.run(api, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
 
 # Import & init routers
-from app.routes.user_behaviour import user_behaviour_router
+from app.routes.user_behaviour import user_behaviour_router, user_behaviour_json_router
 from app.routes.user import user_router
 from app.routes.behaviour import behaviour_router
 
 api.include_router(user_behaviour_router)
+api.include_router(user_behaviour_json_router)
 api.include_router(user_router)
 api.include_router(behaviour_router)
