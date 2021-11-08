@@ -6,7 +6,6 @@ import uvicorn
 from app.models.UserBehaviour import User, Behaviour, UserBehaviour, UserBehaviourTable
 from app.db.connection import get_db, init_engine
 from app.db.model import user_behaviour_table_model, user_table_model, behaviour_table_model
-from app.utils.data_shuffle import restructure_tbl_data
 
 # Conf
 DEFAULT_SQLITE_DB='sqlite:///data/thrivey.db'
@@ -22,63 +21,31 @@ behaviour_tbl=behaviour_table_model(db_metadata)
 user_behaviour_tbl=user_behaviour_table_model(db_metadata)
 
 # Init FastAPI
-app = FastAPI()
+api = FastAPI()
 
-# Define routes
-@app.get("/")
+# Define default routes
+@api.get("/")
 async def root():
     return {"Thrivey": "OK"}
 
-@app.on_event("startup")
+# Init DB conn on startup
+@api.on_event("startup")
 async def startup():
     await database.connect()
 
-@app.on_event("shutdown")
+# Shutdown DB conn on startup
+@api.on_event("shutdown")
 async def shutdown():
     await database.disconnect()
 
-
-@app.get("/user/table", response_model=List[User])
-async def read_user():
-    query = user_tbl.select()
-    return await database.fetch_all(query)
-@app.post("/user/validate")
-async def validate_behaviour(data: User):
-    print(f"Type: {type(data)} \n{data}")
-    resp = {"model": User.schema()['title'], "isValid": True}
-    return resp
-
-
-@app.get("/behaviour/table", response_model=List[Behaviour])
-async def read_behaviour():
-    query = behaviour_tbl.select()
-    return await database.fetch_all(query)
-@app.post("/behaviour/validate")
-async def validate_behaviour(data: Behaviour):
-    print(f"Type: {type(data)} \n{data}")
-    resp = {"model": Behaviour.schema()['title'], "isValid": True}
-    return resp
-
-
-@app.get("/user_behaviour/table", response_model=List[UserBehaviourTable])
-async def read_user_behaviour():
-    query = user_behaviour_tbl.select()
-    return await database.fetch_all(query)
-
-@app.get("/user_behaviour/json", response_model=List[UserBehaviour])
-async def read_user_behaviour_json():
-    result = await restructure_tbl_data(database, user_behaviour_tbl)
-    print(result)
-    return result
-
-@app.post("/user_behaviour/validate")
-async def validate_user_behaviour(data: UserBehaviour):
-    print(f"Type: {type(data)} \n{data}")
-    resp = {"model": UserBehaviour.schema()['title'], "isValid": True}
-    return resp
-
-
 def run_server():
-    uvicorn.run(app, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
+    uvicorn.run(api, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
 
+# Import & init routers
+from app.routes.user_behaviour import user_behaviour_router
+from app.routes.user import user_router
+from app.routes.behaviour import behaviour_router
 
+api.include_router(user_behaviour_router)
+api.include_router(user_router)
+api.include_router(behaviour_router)

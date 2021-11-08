@@ -10,7 +10,7 @@ mocked_record={
         "thrivey_score": 99
     },
     "behaviour": {
-        "user_id": 1,
+        "id": 1,
         "session_id": 1,
         "user_action": "A1",
         "date_created": "Oct 17, 2021 5:23 AM",
@@ -31,6 +31,7 @@ def test_validate_valid_doc_returns_success(test_app):
         "/user_behaviour/validate",
         json=mocked_record,
     )
+    print(response.json())
     assert response.status_code == 200
     assert response.json() == {'isValid': True}
 
