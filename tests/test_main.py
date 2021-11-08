@@ -3,7 +3,7 @@ import pytest
 mocked_record={
     "id": 0,
     "user": {
-        "user_id": 1,
+        "id": 1,
         "first_name": "John",
         "last_name": "Fakington",
         "user_created": "Sep 14, 2021 4:32 AM",
@@ -11,6 +11,7 @@ mocked_record={
     },
     "behaviour": {
         "id": 1,
+        "user_id": 1,
         "session_id": 1,
         "user_action": "A1",
         "date_created": "Oct 17, 2021 5:23 AM",
@@ -33,7 +34,7 @@ def test_validate_valid_doc_returns_success(test_app):
     )
     print(response.json())
     assert response.status_code == 200
-    assert response.json() == {'isValid': True}
+    assert response.json() == {'model': 'UserBehaviour', 'isValid': True}
 
 
 

@@ -44,13 +44,11 @@ async def read_user_behaviour():
 @user_behaviour_json_router.get("/json", response_model=List[UserBehaviour])
 async def read_user_behaviour_json():
     result = await restructure_tbl_data(database, user_behaviour_tbl)
-    logger.warning(result)
     return result
 
 @user_behaviour_json_router.get("/json1")
 async def read_user_behaviour_json1():
     result = restructure_tbl_data(database, user_behaviour_tbl)
-    logger.exception(result)
     return await result
 
 @user_behaviour_router.post("/validate")
