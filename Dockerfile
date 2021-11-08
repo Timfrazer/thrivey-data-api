@@ -18,7 +18,8 @@ RUN pip install poetry==1.1 tox
 COPY . ./
 
 RUN tox
-    
+
+RUN mkdir logs
 
 RUN chmod u+x bin/*.sh
 
