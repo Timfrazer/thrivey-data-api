@@ -39,10 +39,10 @@ async def read_user_behaviour_json():
 @api.get("/user_behaviour/dodgy_endpoint")
 async def read_user_behaviour_dodgy_endpoint(http_req_outcome: int = random.randint(1, 5)):
     
-    http_error_generator.generate_dummy_resp(http_req_outcome)
+    resp = http_error_generator.generate_dummy_resp(http_req_outcome)
 
     # If option 1 occurs -> Successful response returned. Else HTTPException
-    return json_data
+    return resp
 
 # Load 10,000 recs with pagination
 @api.get("/user_behaviour_10k/json", response_model=Page[UserBehaviour])
