@@ -23,9 +23,10 @@ with open(json_file10k) as user_json_file10k:
     json_data10k = json.load(user_json_file10k)
 
 # Load 150 records straight up
-@api.get("/user_behaviour/json", response_model=UserBehaviour)
+@api.get("/user_behaviour/json", response_model=list[UserBehaviour])
 async def read_user_behaviour_json():
     result = (json_data)
+    logging.info("result: %s", result)
     return result
 
 # Load 10,000 recs with pagination

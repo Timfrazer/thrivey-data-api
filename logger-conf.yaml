@@ -8,11 +8,16 @@ formatters:
     format: "%(asctime)s %(name)s %(levelname)s: %(message)s"
 
 handlers:
-  console_handler:
-    class: logging.StreamHandler
+  # console_handler:
+  #   class: logging.StreamHandler
+  #   level: DEBUG
+  #   formatter: simple_formatter
+  #   stream: "ext://sys.stdout"
+  console:
     level: DEBUG
-    formatter: simple_formatter
-    stream: "ext://sys.stdout"
+    class: logging.StreamHandler
+    formatter: extended_formatter
+    stream: ext://sys.stdout
 
   file_handler:
     class: logging.FileHandler
@@ -37,9 +42,15 @@ handlers:
 #       - console
 #     level: INFO
 
+loggers: 
+  uvicorn: 
+    access: 
+      handlers: 
+        - console
+      level: DEBUG
 
 root:
-  handlers: [console_handler, file_handler]
+  handlers: [console, file_handler]
   propagate: true
   level: DEBUG
 
