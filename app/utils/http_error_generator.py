@@ -1,9 +1,9 @@
-from fastapi import HTTPException
-
+from fastapi import HTTPException, Response
+import json
 
 # Return 1 of 5 dummy HTTP Responses
 def success():
-    print("Successful Response!")
+    return Response(status_code=200, media_type="application/json", content=json.dumps({'REQUEST': 'OK'}))
 
 def bad_request():
     raise HTTPException(status_code=400, detail="Validation Failed!")
@@ -25,8 +25,8 @@ def generate_dummy_resp(choice):
             5 : server_error,
   }
   try:
-    options[choice]()
+    resp = options[choice]()
   # Handle int value outside the above selection
   except KeyError:
-    not_found
-
+    resp = not_found
+  return resp
