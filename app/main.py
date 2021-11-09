@@ -43,11 +43,12 @@ def run_server():
     uvicorn.run(api, host='0.0.0.0', port=API_PORT, workers=API_WORKER_COUNT)
 
 # Import & init routers
-from app.routes.user_behaviour import user_behaviour_router, user_behaviour_json_router
-from app.routes.user import user_router
-from app.routes.behaviour import behaviour_router
-
-api.include_router(user_behaviour_router)
+from app.routes.user_behaviour_json import user_behaviour_json_router
 api.include_router(user_behaviour_json_router)
-api.include_router(user_router)
-api.include_router(behaviour_router)
+
+# from app.routes.user_behaviour import user_behaviour_router, user_behaviour_json_router
+# from app.routes.user import user_router
+# from app.routes.behaviour import behaviour_router
+# api.include_router(user_behaviour_router)
+# api.include_router(user_router)
+# api.include_router(behaviour_router)
