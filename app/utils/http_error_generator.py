@@ -24,5 +24,9 @@ def generate_dummy_resp(choice):
             4 : unauthourized,
             5 : server_error,
   }
-  options[choice]()
+  try:
+    options[choice]()
+  # Handle int value outside the above selection
+  except KeyError:
+    not_found
 
