@@ -73,10 +73,10 @@ def this_is_defininetly_not_a_test():
         converted_date_created = convert_ts(sample_json_list_of_records['behaviour']['date_created'])
 
         result_list.append({
-            'id' : sample_json_list_of_records['id'],
-            'firstname' : sample_json_list_of_records['user']['first_name'],
-            'user_created' : converted_user_created,
-            'date_created' : converted_date_created,
+            'id' : rec['id'],
+            'firstname' : rec['user']['first_name'],
+            'user_created' : rec,
+            'date_created' : rec,
         }[UserBehaviour])
 
     connection.execute(sql_alchemy_table.insert(),
