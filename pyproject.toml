@@ -23,6 +23,7 @@ python-decouple = "^3.5"
 fastapi-crudrouter = "^0.8.4"
 fastapi-pagination = "^0.9.0"
 google-cloud-bigquery = {version = "^2.30.1", python = "3.9.7"}
+pyarrow = "^6.0.0"
 
 [tool.poetry.dev-dependencies]
 typer = "^0.3.2"
