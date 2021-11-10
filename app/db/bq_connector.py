@@ -25,9 +25,8 @@ def fire_bq():
 def get_bq_tbl(bq_tbl_name):
 
     query_job = client.query(bq_tbl_name)
-    rows = query_job.result(QUERY)
-    if rows.total_rows > 0:
-        df = rows.to_dataframe()
+    if query_job.total_rows > 0:
+        df = query_job.to_dataframe()
         return df.to_json(orient='records', force_ascii=False)
 
     return {"detail": {"status": "success", "message":"no data found"}}
