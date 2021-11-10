@@ -7,7 +7,7 @@ from fastapi_pagination import Page, add_pagination, paginate
 import random
 
 from app.models.UserBehaviour import UserBehaviour
-from app.main import api
+from app import api
 from app.utils import http_error_generator
 
 # Init router

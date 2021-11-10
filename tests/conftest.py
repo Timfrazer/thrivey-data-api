@@ -2,7 +2,7 @@ import pytest
 from fastapi.testclient import TestClient
 from multiprocessing import Process
 
-from app.main import api, run_server
+from app import api, run_server
 
 
 @pytest.fixture(scope="module")

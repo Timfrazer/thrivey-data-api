@@ -7,4 +7,4 @@ fi
 
 
 poetry run uvicorn --reload --log-level debug --host=0.0.0.0 --port ${API_PORT} \
-    --workers ${API_WORKER_COUNT} --log-config logger-conf.yaml app.main:api
+    --workers ${API_WORKER_COUNT} --log-config logger-conf.yaml app:api
