@@ -6,7 +6,9 @@ import uvicorn
 from app.models.UserBehaviour import User, Behaviour, UserBehaviour, UserBehaviourTable
 from app.db.connection import get_db, init_engine
 from app.db.model import user_behaviour_table_model, user_behaviour_json_model, user_table_model, behaviour_table_model
-from app.db import bq_connector
+# from app.db import bq_connector
+
+
 # Conf
 DEFAULT_SQLITE_DB='sqlite:///data/thrivey.db'
 SQLALCHEMY_DATABASE_URL = config("DATABASE_URL", DEFAULT_SQLITE_DB)
@@ -28,6 +30,11 @@ api = FastAPI()
 @api.get("/")
 async def root():
     return {"Thrivey": "OK"}
+
+@api.get("/bq")
+async def bigquery_select_count():
+    result = bq_connector.fire_bq()
+    return result
 
 # Init DB conn on startup
 @api.on_event("startup")
