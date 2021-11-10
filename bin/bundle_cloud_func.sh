@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FUNC_NAME=hello_http
+source .env
 
 poetry export --without-hashes -f requirements.txt --output requirements.txt
 
