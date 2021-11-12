@@ -1,6 +1,6 @@
 from app import *
 
-def hello_http(request):
+def thrivey_test(request):
     """HTTP Cloud Function.
     Args:
         request (flask.Request): The request object.

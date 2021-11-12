@@ -10,8 +10,10 @@ from app.db.model import user_behaviour_table_model, user_behaviour_json_model, 
 
 
 # Conf
-DEFAULT_SQLITE_DB='sqlite:///data/thrivey.db'
-SQLALCHEMY_DATABASE_URL = config("DATABASE_URL", DEFAULT_SQLITE_DB)
+# DEFAULT_SQLITE_DB='sqlite:///tmp/thrivey.db'
+DEFAULT_SQLITE_DB='sqlite:////tmp/thrivey.db'
+SQLALCHEMY_DATABASE_URL = DEFAULT_SQLITE_DB
+# SQLALCHEMY_DATABASE_URL = config("DATABASE_URL", DEFAULT_SQLITE_DB)
 API_PORT=config("API_PORT", 8000)
 API_WORKER_COUNT=config("API_WORKER_COUNT", 1)
 
@@ -23,7 +25,7 @@ behaviour_tbl=behaviour_table_model(db_metadata)
 user_behaviour_tbl=user_behaviour_table_model(db_metadata)
 user_behaviour_json=user_behaviour_json_model(db_metadata)
 
-# Init FastAPI
+# Init FastAPI 
 api = FastAPI()
 
 # Define default routes
