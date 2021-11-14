@@ -1,8 +1,12 @@
 .tox
 __pycache__
 *.pyc
+*/*.pyc
+*/*/*.pyc
 *.pyo
 *.pyd
 .cache
 .git
-.pytest_cache
+*/.pytest_cache
+*/*/.pytest_cache
+Dockerfile
