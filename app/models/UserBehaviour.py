@@ -1,5 +1,7 @@
+from typing import Optional
+
 from pydantic import BaseModel, StrictInt, StrictStr, conlist
-from typing import  Optional
+
 
 class User(BaseModel):
     id: StrictInt
@@ -7,7 +9,8 @@ class User(BaseModel):
     last_name: StrictStr
     user_created: str
     thrivey_score: StrictInt
-    
+
+
 class Behaviour(BaseModel):
     user_id: StrictInt
     session_id: StrictInt
@@ -15,10 +18,12 @@ class Behaviour(BaseModel):
     date_created: str
     ipv4: str
 
+
 class UserBehaviour(BaseModel):
     id: StrictInt
     user: User
     behaviour: Behaviour
+
 
 class UserBehaviourTable(BaseModel):
     index: int
