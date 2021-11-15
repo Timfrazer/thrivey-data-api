@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "110f0842-d104-47ce-9dba-d977def8ac41",
+		"name": "Thrivey_CloudRun",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thrivey-test-r4dnb5jnga-uc.a.run.app",
+					"protocol": "https",
+					"host": [
+						"thrivey-test-r4dnb5jnga-uc",
+						"a",
+						"run",
+						"app"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/docs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thrivey-test-r4dnb5jnga-uc.a.run.app",
+					"protocol": "https",
+					"host": [
+						"thrivey-test-r4dnb5jnga-uc",
+						"a",
+						"run",
+						"app"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user_behaviour/json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thrivey-test-r4dnb5jnga-uc.a.run.app/user_behaviour/json",
+					"protocol": "https",
+					"host": [
+						"thrivey-test-r4dnb5jnga-uc",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"user_behaviour",
+						"json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user_behaviour/dodgy_endpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thrivey-test-r4dnb5jnga-uc.a.run.app/user_behaviour/dodgy_endpoint",
+					"protocol": "https",
+					"host": [
+						"thrivey-test-r4dnb5jnga-uc",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"user_behaviour",
+						"dodgy_endpoint"
+					],
+					"query": [
+						{
+							"key": "http_req_outcome",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user_behaviour_10k/json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thrivey-test-r4dnb5jnga-uc.a.run.app/user_behaviour_10k/json?page=1&size=50",
+					"protocol": "https",
+					"host": [
+						"thrivey-test-r4dnb5jnga-uc",
+						"a",
+						"run",
+						"app"
+					],
+					"path": [
+						"user_behaviour_10k",
+						"json"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

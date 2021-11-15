@@ -147,3 +147,4 @@ runner.py
 # Postgres
 postgres-data/
 .python-version
+app/main.py_bkup

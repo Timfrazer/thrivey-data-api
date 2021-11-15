@@ -1,0 +1,2552 @@
+[
+  {
+    "id": 0,
+    "user": {
+      "id": 1,
+      "first_name": "Fawne",
+      "last_name": "MacDowal",
+      "user_created": "Sep 14, 2021 4:32 AM",
+      "thrivey_score": 81
+    },
+    "behaviour": {
+      "user_id": 1,
+      "session_id": 3,
+      "user_action": "C423",
+      "date_created": "Oct 17, 2021 5:23 AM",
+      "ipv4": "172.30.189.226"
+    }
+  },
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "first_name": "Fawne",
+      "last_name": "MacDowal",
+      "user_created": "Sep 14, 2021 4:32 AM",
+      "thrivey_score": 81
+    },
+    "behaviour": {
+      "user_id": 1,
+      "session_id": 1,
+      "user_action": "E77",
+      "date_created": "Oct 16, 2021 7:05 PM",
+      "ipv4": "10.49.192.181"
+    }
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 1,
+      "first_name": "Fawne",
+      "last_name": "MacDowal",
+      "user_created": "Sep 14, 2021 4:32 AM",
+      "thrivey_score": 81
+    },
+    "behaviour": {
+      "user_id": 1,
+      "session_id": 1,
+      "user_action": "C5",
+      "date_created": "Oct 7, 2021 1:26 AM",
+      "ipv4": "192.168.203.151"
+    }
+  },
+  {
+    "id": 3,
+    "user": {
+      "id": 1,
+      "first_name": "Fawne",
+      "last_name": "MacDowal",
+      "user_created": "Sep 14, 2021 4:32 AM",
+      "thrivey_score": 81
+    },
+    "behaviour": {
+      "user_id": 1,
+      "session_id": 2,
+      "user_action": "K4255",
+      "date_created": "Oct 19, 2021 10:27 PM",
+      "ipv4": "192.168.251.39"
+    }
+  },
+  {
+    "id": 4,
+    "user": {
+      "id": 1,
+      "first_name": "Fawne",
+      "last_name": "MacDowal",
+      "user_created": "Sep 14, 2021 4:32 AM",
+      "thrivey_score": 81
+    },
+    "behaviour": {
+      "user_id": 1,
+      "session_id": 3,
+      "user_action": "C423",
+      "date_created": "Oct 29, 2021 11:57 AM",
+      "ipv4": "172.29.157.139"
+    }
+  },
+  {
+    "id": 5,
+    "user": {
+      "id": 1,
+      "first_name": "Fawne",
+      "last_name": "MacDowal",
+      "user_created": "Sep 14, 2021 4:32 AM",
+      "thrivey_score": 81
+    },
+    "behaviour": {
+      "user_id": 1,
+      "session_id": 3,
+      "user_action": "D44",
+      "date_created": "Oct 21, 2021 10:03 AM",
+      "ipv4": "10.221.217.54"
+    }
+  },
+  {
+    "id": 6,
+    "user": {
+      "id": 1,
+      "first_name": "Fawne",
+      "last_name": "MacDowal",
+      "user_created": "Sep 14, 2021 4:32 AM",
+      "thrivey_score": 81
+    },
+    "behaviour": {
+      "user_id": 1,
+      "session_id": 1,
+      "user_action": "A21",
+      "date_created": "Oct 14, 2021 4:50 AM",
+      "ipv4": "192.168.208.156"
+    }
+  },
+  {
+    "id": 7,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 2,
+      "user_action": "A11",
+      "date_created": "Oct 22, 2021 10:28 PM",
+      "ipv4": "192.168.5.109"
+    }
+  },
+  {
+    "id": 8,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 3,
+      "user_action": "B23",
+      "date_created": "Oct 18, 2021 8:34 PM",
+      "ipv4": "172.26.18.116"
+    }
+  },
+  {
+    "id": 9,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 2,
+      "user_action": "F64",
+      "date_created": "Oct 8, 2021 6:34 PM",
+      "ipv4": "192.168.200.71"
+    }
+  },
+  {
+    "id": 10,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 1,
+      "user_action": "B12",
+      "date_created": "Oct 29, 2021 11:10 AM",
+      "ipv4": "192.168.138.104"
+    }
+  },
+  {
+    "id": 11,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 1,
+      "user_action": "B22",
+      "date_created": "Oct 6, 2021 12:42 PM",
+      "ipv4": "192.168.129.43"
+    }
+  },
+  {
+    "id": 12,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 3,
+      "user_action": "J3453",
+      "date_created": "Oct 17, 2021 5:51 PM",
+      "ipv4": "192.168.9.93"
+    }
+  },
+  {
+    "id": 13,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 3,
+      "user_action": "N32",
+      "date_created": "Oct 17, 2021 2:14 AM",
+      "ipv4": "10.253.31.178"
+    }
+  },
+  {
+    "id": 14,
+    "user": {
+      "id": 2,
+      "first_name": "Joan",
+      "last_name": "Loache",
+      "user_created": "Sep 12, 2021 11:39 AM",
+      "thrivey_score": 69
+    },
+    "behaviour": {
+      "user_id": 2,
+      "session_id": 1,
+      "user_action": "D66",
+      "date_created": "Oct 23, 2021 12:49 AM",
+      "ipv4": "10.70.250.185"
+    }
+  },
+  {
+    "id": 15,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 3,
+      "user_action": "B23",
+      "date_created": "Oct 25, 2021 2:00 AM",
+      "ipv4": "192.168.57.63"
+    }
+  },
+  {
+    "id": 16,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "D44",
+      "date_created": "Oct 29, 2021 2:36 PM",
+      "ipv4": "172.31.100.114"
+    }
+  },
+  {
+    "id": 17,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "B43",
+      "date_created": "Oct 23, 2021 2:20 AM",
+      "ipv4": "10.215.106.129"
+    }
+  },
+  {
+    "id": 18,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "B12",
+      "date_created": "Oct 13, 2021 3:39 PM",
+      "ipv4": "192.168.188.176"
+    }
+  },
+  {
+    "id": 19,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "N32",
+      "date_created": "Oct 13, 2021 12:35 AM",
+      "ipv4": "10.230.254.205"
+    }
+  },
+  {
+    "id": 20,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "A11",
+      "date_created": "Oct 26, 2021 10:28 AM",
+      "ipv4": "172.18.215.5"
+    }
+  },
+  {
+    "id": 21,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 3,
+      "user_action": "L2",
+      "date_created": "Oct 29, 2021 8:11 PM",
+      "ipv4": "10.155.183.243"
+    }
+  },
+  {
+    "id": 22,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "C423",
+      "date_created": "Oct 11, 2021 3:45 PM",
+      "ipv4": "10.145.205.62"
+    }
+  },
+  {
+    "id": 23,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "G74",
+      "date_created": "Oct 25, 2021 5:27 AM",
+      "ipv4": "10.119.90.136"
+    }
+  },
+  {
+    "id": 24,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 3,
+      "user_action": "L86",
+      "date_created": "Oct 16, 2021 5:51 AM",
+      "ipv4": "192.168.221.252"
+    }
+  },
+  {
+    "id": 25,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 22, 2021 11:07 AM",
+      "ipv4": "10.65.40.138"
+    }
+  },
+  {
+    "id": 26,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 3,
+      "user_action": "C423",
+      "date_created": "Oct 26, 2021 11:11 AM",
+      "ipv4": "172.16.222.177"
+    }
+  },
+  {
+    "id": 27,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 30, 2021 2:44 PM",
+      "ipv4": "172.19.255.2"
+    }
+  },
+  {
+    "id": 28,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "F64",
+      "date_created": "Oct 25, 2021 7:01 AM",
+      "ipv4": "10.178.104.83"
+    }
+  },
+  {
+    "id": 29,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "F64",
+      "date_created": "Oct 15, 2021 11:43 AM",
+      "ipv4": "172.30.127.238"
+    }
+  },
+  {
+    "id": 30,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 22, 2021 10:55 PM",
+      "ipv4": "172.18.169.48"
+    }
+  },
+  {
+    "id": 31,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "L86",
+      "date_created": "Oct 10, 2021 5:07 AM",
+      "ipv4": "172.26.79.57"
+    }
+  },
+  {
+    "id": 32,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "B43",
+      "date_created": "Oct 5, 2021 10:09 PM",
+      "ipv4": "192.168.111.98"
+    }
+  },
+  {
+    "id": 33,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "H234",
+      "date_created": "Oct 24, 2021 11:42 AM",
+      "ipv4": "192.168.51.109"
+    }
+  },
+  {
+    "id": 34,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 3,
+      "user_action": "N32",
+      "date_created": "Oct 22, 2021 9:27 PM",
+      "ipv4": "10.250.41.214"
+    }
+  },
+  {
+    "id": 35,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "F22",
+      "date_created": "Oct 9, 2021 9:47 PM",
+      "ipv4": "192.168.189.168"
+    }
+  },
+  {
+    "id": 36,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 1,
+      "user_action": "C324",
+      "date_created": "Nov 1, 2021 3:01 AM",
+      "ipv4": "172.29.230.129"
+    }
+  },
+  {
+    "id": 37,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 2,
+      "user_action": "G74",
+      "date_created": "Oct 17, 2021 11:53 PM",
+      "ipv4": "192.168.228.129"
+    }
+  },
+  {
+    "id": 38,
+    "user": {
+      "id": 3,
+      "first_name": "Daniele",
+      "last_name": "McVittie",
+      "user_created": "Sep 21, 2021 5:48 AM",
+      "thrivey_score": 91
+    },
+    "behaviour": {
+      "user_id": 3,
+      "session_id": 3,
+      "user_action": "D66",
+      "date_created": "Oct 11, 2021 3:57 PM",
+      "ipv4": "172.18.106.17"
+    }
+  },
+  {
+    "id": 39,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "C5",
+      "date_created": "Oct 28, 2021 12:23 PM",
+      "ipv4": "10.139.80.176"
+    }
+  },
+  {
+    "id": 40,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 1,
+      "user_action": "C423",
+      "date_created": "Oct 27, 2021 10:23 PM",
+      "ipv4": "192.168.186.199"
+    }
+  },
+  {
+    "id": 41,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "K4255",
+      "date_created": "Oct 26, 2021 6:06 AM",
+      "ipv4": "172.26.252.114"
+    }
+  },
+  {
+    "id": 42,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 1,
+      "user_action": "A12",
+      "date_created": "Oct 24, 2021 5:37 PM",
+      "ipv4": "172.25.246.232"
+    }
+  },
+  {
+    "id": 43,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 2,
+      "user_action": "V53",
+      "date_created": "Oct 31, 2021 1:56 AM",
+      "ipv4": "192.168.223.103"
+    }
+  },
+  {
+    "id": 44,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "V53",
+      "date_created": "Oct 31, 2021 9:59 PM",
+      "ipv4": "192.168.154.103"
+    }
+  },
+  {
+    "id": 45,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "H234",
+      "date_created": "Oct 21, 2021 11:57 AM",
+      "ipv4": "172.22.155.3"
+    }
+  },
+  {
+    "id": 46,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "F22",
+      "date_created": "Oct 28, 2021 5:28 AM",
+      "ipv4": "10.135.110.160"
+    }
+  },
+  {
+    "id": 47,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "B23",
+      "date_created": "Oct 21, 2021 12:05 PM",
+      "ipv4": "172.29.106.110"
+    }
+  },
+  {
+    "id": 48,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "L86",
+      "date_created": "Oct 12, 2021 10:48 AM",
+      "ipv4": "172.16.50.224"
+    }
+  },
+  {
+    "id": 49,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 2,
+      "user_action": "K4255",
+      "date_created": "Oct 22, 2021 5:17 PM",
+      "ipv4": "172.17.37.167"
+    }
+  },
+  {
+    "id": 50,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 1,
+      "user_action": "G74",
+      "date_created": "Oct 28, 2021 6:04 AM",
+      "ipv4": "10.202.227.133"
+    }
+  },
+  {
+    "id": 51,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 2,
+      "user_action": "K4255",
+      "date_created": "Oct 22, 2021 8:06 PM",
+      "ipv4": "10.155.146.251"
+    }
+  },
+  {
+    "id": 52,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 1,
+      "user_action": "E77",
+      "date_created": "Oct 14, 2021 2:16 AM",
+      "ipv4": "192.168.204.255"
+    }
+  },
+  {
+    "id": 53,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 2,
+      "user_action": "D66",
+      "date_created": "Oct 22, 2021 7:58 AM",
+      "ipv4": "10.252.44.209"
+    }
+  },
+  {
+    "id": 54,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "D44",
+      "date_created": "Oct 22, 2021 12:23 AM",
+      "ipv4": "192.168.8.119"
+    }
+  },
+  {
+    "id": 55,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 3,
+      "user_action": "A21",
+      "date_created": "Oct 20, 2021 10:39 PM",
+      "ipv4": "10.165.24.64"
+    }
+  },
+  {
+    "id": 56,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 13, 2021 2:55 AM",
+      "ipv4": "10.105.221.123"
+    }
+  },
+  {
+    "id": 57,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 7, 2021 6:30 AM",
+      "ipv4": "172.31.250.58"
+    }
+  },
+  {
+    "id": 58,
+    "user": {
+      "id": 4,
+      "first_name": "Carney",
+      "last_name": "McCardle",
+      "user_created": "Sep 6, 2021 1:51 AM",
+      "thrivey_score": 54
+    },
+    "behaviour": {
+      "user_id": 4,
+      "session_id": 2,
+      "user_action": "F22",
+      "date_created": "Oct 20, 2021 9:05 PM",
+      "ipv4": "172.17.231.16"
+    }
+  },
+  {
+    "id": 59,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "N32",
+      "date_created": "Nov 1, 2021 12:33 AM",
+      "ipv4": "10.188.105.183"
+    }
+  },
+  {
+    "id": 60,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 1,
+      "user_action": "F64",
+      "date_created": "Oct 8, 2021 8:57 PM",
+      "ipv4": "10.164.158.239"
+    }
+  },
+  {
+    "id": 61,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 3,
+      "user_action": "L2",
+      "date_created": "Oct 6, 2021 7:47 AM",
+      "ipv4": "10.10.8.150"
+    }
+  },
+  {
+    "id": 62,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 3,
+      "user_action": "F22",
+      "date_created": "Oct 12, 2021 2:42 PM",
+      "ipv4": "10.221.133.49"
+    }
+  },
+  {
+    "id": 63,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "B43",
+      "date_created": "Oct 8, 2021 8:04 PM",
+      "ipv4": "192.168.240.9"
+    }
+  },
+  {
+    "id": 64,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 13, 2021 6:05 AM",
+      "ipv4": "192.168.159.162"
+    }
+  },
+  {
+    "id": 65,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "C5",
+      "date_created": "Oct 23, 2021 12:46 AM",
+      "ipv4": "192.168.94.46"
+    }
+  },
+  {
+    "id": 66,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 1,
+      "user_action": "C1",
+      "date_created": "Oct 18, 2021 8:25 AM",
+      "ipv4": "192.168.202.101"
+    }
+  },
+  {
+    "id": 67,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "K4255",
+      "date_created": "Oct 30, 2021 8:35 PM",
+      "ipv4": "10.237.177.55"
+    }
+  },
+  {
+    "id": 68,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 3,
+      "user_action": "E77",
+      "date_created": "Oct 11, 2021 5:09 AM",
+      "ipv4": "192.168.77.86"
+    }
+  },
+  {
+    "id": 69,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "K4255",
+      "date_created": "Oct 13, 2021 2:05 PM",
+      "ipv4": "172.27.82.111"
+    }
+  },
+  {
+    "id": 70,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "G74",
+      "date_created": "Oct 21, 2021 5:02 AM",
+      "ipv4": "172.25.55.245"
+    }
+  },
+  {
+    "id": 71,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 1,
+      "user_action": "D2",
+      "date_created": "Oct 8, 2021 6:39 PM",
+      "ipv4": "192.168.133.173"
+    }
+  },
+  {
+    "id": 72,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 3,
+      "user_action": "J43",
+      "date_created": "Oct 18, 2021 8:33 AM",
+      "ipv4": "192.168.244.222"
+    }
+  },
+  {
+    "id": 73,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 3,
+      "user_action": "L2",
+      "date_created": "Oct 28, 2021 5:36 PM",
+      "ipv4": "172.16.1.65"
+    }
+  },
+  {
+    "id": 74,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "K4255",
+      "date_created": "Oct 22, 2021 4:24 PM",
+      "ipv4": "192.168.234.168"
+    }
+  },
+  {
+    "id": 75,
+    "user": {
+      "id": 5,
+      "first_name": "Katie",
+      "last_name": "Tomkin",
+      "user_created": "Sep 30, 2021 1:35 AM",
+      "thrivey_score": 85
+    },
+    "behaviour": {
+      "user_id": 5,
+      "session_id": 2,
+      "user_action": "H234",
+      "date_created": "Oct 13, 2021 5:01 PM",
+      "ipv4": "10.181.99.136"
+    }
+  },
+  {
+    "id": 76,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 2,
+      "user_action": "D44",
+      "date_created": "Oct 13, 2021 7:53 AM",
+      "ipv4": "192.168.84.236"
+    }
+  },
+  {
+    "id": 77,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 1,
+      "user_action": "B23",
+      "date_created": "Oct 27, 2021 7:22 PM",
+      "ipv4": "192.168.229.149"
+    }
+  },
+  {
+    "id": 78,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 2,
+      "user_action": "D66",
+      "date_created": "Oct 5, 2021 11:23 AM",
+      "ipv4": "10.221.155.84"
+    }
+  },
+  {
+    "id": 79,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 2,
+      "user_action": "D66",
+      "date_created": "Oct 16, 2021 10:43 AM",
+      "ipv4": "172.17.190.114"
+    }
+  },
+  {
+    "id": 80,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 2,
+      "user_action": "C423",
+      "date_created": "Oct 6, 2021 12:46 PM",
+      "ipv4": "10.102.46.159"
+    }
+  },
+  {
+    "id": 81,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 9, 2021 6:20 PM",
+      "ipv4": "192.168.203.230"
+    }
+  },
+  {
+    "id": 82,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 3,
+      "user_action": "C5",
+      "date_created": "Oct 10, 2021 2:46 PM",
+      "ipv4": "172.30.91.219"
+    }
+  },
+  {
+    "id": 83,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 26, 2021 1:09 AM",
+      "ipv4": "10.126.153.31"
+    }
+  },
+  {
+    "id": 84,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 3,
+      "user_action": "J43",
+      "date_created": "Oct 22, 2021 9:43 AM",
+      "ipv4": "192.168.194.5"
+    }
+  },
+  {
+    "id": 85,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 1,
+      "user_action": "J3453",
+      "date_created": "Oct 12, 2021 4:33 PM",
+      "ipv4": "192.168.28.210"
+    }
+  },
+  {
+    "id": 86,
+    "user": {
+      "id": 6,
+      "first_name": "Itch",
+      "last_name": "Wathall",
+      "user_created": "Sep 16, 2021 6:23 PM",
+      "thrivey_score": 35
+    },
+    "behaviour": {
+      "user_id": 6,
+      "session_id": 2,
+      "user_action": "B43",
+      "date_created": "Oct 6, 2021 8:02 AM",
+      "ipv4": "172.25.140.3"
+    }
+  },
+  {
+    "id": 87,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 17, 2021 1:11 PM",
+      "ipv4": "192.168.95.248"
+    }
+  },
+  {
+    "id": 88,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 3,
+      "user_action": "C324",
+      "date_created": "Oct 29, 2021 7:19 AM",
+      "ipv4": "192.168.57.150"
+    }
+  },
+  {
+    "id": 89,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 3,
+      "user_action": "F64",
+      "date_created": "Oct 6, 2021 4:56 PM",
+      "ipv4": "172.20.23.0"
+    }
+  },
+  {
+    "id": 90,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "D66",
+      "date_created": "Oct 6, 2021 7:45 PM",
+      "ipv4": "172.22.82.152"
+    }
+  },
+  {
+    "id": 91,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 3,
+      "user_action": "M24",
+      "date_created": "Oct 7, 2021 3:15 AM",
+      "ipv4": "172.28.158.89"
+    }
+  },
+  {
+    "id": 92,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 9, 2021 10:14 PM",
+      "ipv4": "10.1.213.208"
+    }
+  },
+  {
+    "id": 93,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 1,
+      "user_action": "C5",
+      "date_created": "Nov 3, 2021 2:33 PM",
+      "ipv4": "172.20.206.215"
+    }
+  },
+  {
+    "id": 94,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 13, 2021 8:02 PM",
+      "ipv4": "172.21.161.52"
+    }
+  },
+  {
+    "id": 95,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "H234",
+      "date_created": "Nov 1, 2021 4:51 AM",
+      "ipv4": "192.168.230.10"
+    }
+  },
+  {
+    "id": 96,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 1,
+      "user_action": "N32",
+      "date_created": "Nov 1, 2021 11:42 PM",
+      "ipv4": "172.31.161.96"
+    }
+  },
+  {
+    "id": 97,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "B12",
+      "date_created": "Oct 24, 2021 12:38 AM",
+      "ipv4": "172.22.235.93"
+    }
+  },
+  {
+    "id": 98,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "J3453",
+      "date_created": "Oct 18, 2021 9:37 AM",
+      "ipv4": "172.21.17.170"
+    }
+  },
+  {
+    "id": 99,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 3,
+      "user_action": "A12",
+      "date_created": "Oct 29, 2021 12:43 PM",
+      "ipv4": "192.168.7.78"
+    }
+  },
+  {
+    "id": 100,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 10, 2021 9:10 PM",
+      "ipv4": "192.168.206.120"
+    }
+  },
+  {
+    "id": 101,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "E77",
+      "date_created": "Oct 7, 2021 9:33 PM",
+      "ipv4": "192.168.238.173"
+    }
+  },
+  {
+    "id": 102,
+    "user": {
+      "id": 7,
+      "first_name": "Beilul",
+      "last_name": "Kaygill",
+      "user_created": "Sep 2, 2021 12:10 PM",
+      "thrivey_score": 47
+    },
+    "behaviour": {
+      "user_id": 7,
+      "session_id": 2,
+      "user_action": "B12",
+      "date_created": "Oct 24, 2021 2:35 PM",
+      "ipv4": "192.168.180.157"
+    }
+  },
+  {
+    "id": 103,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 1,
+      "user_action": "D44",
+      "date_created": "Oct 14, 2021 5:59 PM",
+      "ipv4": "192.168.188.119"
+    }
+  },
+  {
+    "id": 104,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "C1",
+      "date_created": "Oct 26, 2021 8:07 PM",
+      "ipv4": "10.124.213.116"
+    }
+  },
+  {
+    "id": 105,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 12, 2021 10:04 PM",
+      "ipv4": "10.92.211.23"
+    }
+  },
+  {
+    "id": 106,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 1,
+      "user_action": "C324",
+      "date_created": "Oct 24, 2021 10:09 AM",
+      "ipv4": "10.64.64.27"
+    }
+  },
+  {
+    "id": 107,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "G74",
+      "date_created": "Oct 21, 2021 4:52 PM",
+      "ipv4": "10.80.122.196"
+    }
+  },
+  {
+    "id": 108,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 1,
+      "user_action": "A21",
+      "date_created": "Nov 1, 2021 12:09 AM",
+      "ipv4": "10.214.142.145"
+    }
+  },
+  {
+    "id": 109,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 1,
+      "user_action": "C1",
+      "date_created": "Oct 12, 2021 2:34 PM",
+      "ipv4": "10.141.87.1"
+    }
+  },
+  {
+    "id": 110,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 3,
+      "user_action": "C324",
+      "date_created": "Oct 8, 2021 9:01 PM",
+      "ipv4": "10.106.91.107"
+    }
+  },
+  {
+    "id": 111,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 1,
+      "user_action": "E77",
+      "date_created": "Oct 22, 2021 12:21 AM",
+      "ipv4": "192.168.183.185"
+    }
+  },
+  {
+    "id": 112,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 3,
+      "user_action": "J3453",
+      "date_created": "Oct 18, 2021 3:10 PM",
+      "ipv4": "172.29.29.65"
+    }
+  },
+  {
+    "id": 113,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 3,
+      "user_action": "C5",
+      "date_created": "Oct 27, 2021 2:46 PM",
+      "ipv4": "10.153.92.136"
+    }
+  },
+  {
+    "id": 114,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "N32",
+      "date_created": "Oct 25, 2021 11:48 AM",
+      "ipv4": "10.11.245.120"
+    }
+  },
+  {
+    "id": 115,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 3,
+      "user_action": "D44",
+      "date_created": "Oct 29, 2021 2:44 PM",
+      "ipv4": "172.29.99.248"
+    }
+  },
+  {
+    "id": 116,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "B43",
+      "date_created": "Oct 13, 2021 5:26 PM",
+      "ipv4": "192.168.213.188"
+    }
+  },
+  {
+    "id": 117,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "C1",
+      "date_created": "Oct 8, 2021 12:39 AM",
+      "ipv4": "172.28.238.235"
+    }
+  },
+  {
+    "id": 118,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "H234",
+      "date_created": "Oct 15, 2021 4:46 PM",
+      "ipv4": "172.31.66.245"
+    }
+  },
+  {
+    "id": 119,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "H234",
+      "date_created": "Oct 26, 2021 3:37 AM",
+      "ipv4": "10.245.81.215"
+    }
+  },
+  {
+    "id": 120,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "K4255",
+      "date_created": "Nov 2, 2021 2:44 PM",
+      "ipv4": "192.168.205.11"
+    }
+  },
+  {
+    "id": 121,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 3,
+      "user_action": "B43",
+      "date_created": "Nov 2, 2021 6:27 PM",
+      "ipv4": "192.168.168.162"
+    }
+  },
+  {
+    "id": 122,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 3,
+      "user_action": "C1",
+      "date_created": "Oct 6, 2021 2:19 AM",
+      "ipv4": "10.226.233.142"
+    }
+  },
+  {
+    "id": 123,
+    "user": {
+      "id": 8,
+      "first_name": "Cristionna",
+      "last_name": "Rawlingson",
+      "user_created": "Sep 15, 2021 10:23 AM",
+      "thrivey_score": 70
+    },
+    "behaviour": {
+      "user_id": 8,
+      "session_id": 2,
+      "user_action": "B43",
+      "date_created": "Oct 29, 2021 1:28 PM",
+      "ipv4": "192.168.183.10"
+    }
+  },
+  {
+    "id": 124,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 13, 2021 7:53 AM",
+      "ipv4": "10.165.234.96"
+    }
+  },
+  {
+    "id": 125,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "B43",
+      "date_created": "Oct 7, 2021 9:05 PM",
+      "ipv4": "192.168.190.243"
+    }
+  },
+  {
+    "id": 126,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 3,
+      "user_action": "D2",
+      "date_created": "Oct 19, 2021 8:34 PM",
+      "ipv4": "172.26.205.226"
+    }
+  },
+  {
+    "id": 127,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 1,
+      "user_action": "A21",
+      "date_created": "Oct 28, 2021 8:43 PM",
+      "ipv4": "10.129.102.168"
+    }
+  },
+  {
+    "id": 128,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 3,
+      "user_action": "D66",
+      "date_created": "Oct 11, 2021 3:38 PM",
+      "ipv4": "172.19.160.178"
+    }
+  },
+  {
+    "id": 129,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 3,
+      "user_action": "C324",
+      "date_created": "Oct 21, 2021 6:37 PM",
+      "ipv4": "10.106.98.216"
+    }
+  },
+  {
+    "id": 130,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "D2",
+      "date_created": "Oct 31, 2021 2:09 PM",
+      "ipv4": "172.16.72.8"
+    }
+  },
+  {
+    "id": 131,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 1,
+      "user_action": "G74",
+      "date_created": "Oct 25, 2021 6:50 AM",
+      "ipv4": "172.31.147.86"
+    }
+  },
+  {
+    "id": 132,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "D44",
+      "date_created": "Oct 25, 2021 7:22 PM",
+      "ipv4": "10.67.41.220"
+    }
+  },
+  {
+    "id": 133,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 1,
+      "user_action": "J3453",
+      "date_created": "Oct 4, 2021 6:56 PM",
+      "ipv4": "10.142.157.118"
+    }
+  },
+  {
+    "id": 134,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "C5",
+      "date_created": "Oct 15, 2021 10:25 AM",
+      "ipv4": "10.175.233.69"
+    }
+  },
+  {
+    "id": 135,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "H234",
+      "date_created": "Oct 19, 2021 4:48 PM",
+      "ipv4": "192.168.165.130"
+    }
+  },
+  {
+    "id": 136,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "F22",
+      "date_created": "Oct 20, 2021 1:47 AM",
+      "ipv4": "10.14.247.5"
+    }
+  },
+  {
+    "id": 137,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 3,
+      "user_action": "B22",
+      "date_created": "Oct 14, 2021 10:36 PM",
+      "ipv4": "10.216.6.149"
+    }
+  },
+  {
+    "id": 138,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "F64",
+      "date_created": "Oct 6, 2021 1:19 AM",
+      "ipv4": "192.168.79.95"
+    }
+  },
+  {
+    "id": 139,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "B12",
+      "date_created": "Oct 12, 2021 8:37 PM",
+      "ipv4": "192.168.157.56"
+    }
+  },
+  {
+    "id": 140,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "H234",
+      "date_created": "Oct 16, 2021 2:00 PM",
+      "ipv4": "172.31.139.200"
+    }
+  },
+  {
+    "id": 141,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "F64",
+      "date_created": "Nov 1, 2021 3:47 AM",
+      "ipv4": "172.16.201.94"
+    }
+  },
+  {
+    "id": 142,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "L2",
+      "date_created": "Oct 22, 2021 12:02 AM",
+      "ipv4": "172.28.96.195"
+    }
+  },
+  {
+    "id": 143,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "C324",
+      "date_created": "Oct 31, 2021 9:22 AM",
+      "ipv4": "192.168.223.164"
+    }
+  },
+  {
+    "id": 144,
+    "user": {
+      "id": 9,
+      "first_name": "Nero",
+      "last_name": "Boddam",
+      "user_created": "Sep 20, 2021 4:40 AM",
+      "thrivey_score": 8
+    },
+    "behaviour": {
+      "user_id": 9,
+      "session_id": 2,
+      "user_action": "C423",
+      "date_created": "Oct 31, 2021 11:13 AM",
+      "ipv4": "172.25.165.179"
+    }
+  },
+  {
+    "id": 145,
+    "user": {
+      "id": 10,
+      "first_name": "Noelle",
+      "last_name": "Kubach",
+      "user_created": "Sep 25, 2021 9:33 PM",
+      "thrivey_score": 16
+    },
+    "behaviour": {
+      "user_id": 10,
+      "session_id": 1,
+      "user_action": "F64",
+      "date_created": "Oct 29, 2021 5:10 AM",
+      "ipv4": "192.168.46.58"
+    }
+  },
+  {
+    "id": 146,
+    "user": {
+      "id": 10,
+      "first_name": "Noelle",
+      "last_name": "Kubach",
+      "user_created": "Sep 25, 2021 9:33 PM",
+      "thrivey_score": 16
+    },
+    "behaviour": {
+      "user_id": 10,
+      "session_id": 2,
+      "user_action": "C423",
+      "date_created": "Nov 1, 2021 1:36 PM",
+      "ipv4": "172.21.72.70"
+    }
+  },
+  {
+    "id": 147,
+    "user": {
+      "id": 10,
+      "first_name": "Noelle",
+      "last_name": "Kubach",
+      "user_created": "Sep 25, 2021 9:33 PM",
+      "thrivey_score": 16
+    },
+    "behaviour": {
+      "user_id": 10,
+      "session_id": 3,
+      "user_action": "D44",
+      "date_created": "Oct 23, 2021 4:50 PM",
+      "ipv4": "10.201.102.132"
+    }
+  },
+  {
+    "id": 148,
+    "user": {
+      "id": 10,
+      "first_name": "Noelle",
+      "last_name": "Kubach",
+      "user_created": "Sep 25, 2021 9:33 PM",
+      "thrivey_score": 16
+    },
+    "behaviour": {
+      "user_id": 10,
+      "session_id": 1,
+      "user_action": "A11",
+      "date_created": "Oct 15, 2021 1:17 AM",
+      "ipv4": "10.39.41.146"
+    }
+  },
+  {
+    "id": 149,
+    "user": {
+      "id": 10,
+      "first_name": "Noelle",
+      "last_name": "Kubach",
+      "user_created": "Sep 25, 2021 9:33 PM",
+      "thrivey_score": 16
+    },
+    "behaviour": {
+      "user_id": 10,
+      "session_id": 2,
+      "user_action": "A21",
+      "date_created": "Oct 19, 2021 12:57 PM",
+      "ipv4": "172.19.235.248"
+    }
+  }
+]
