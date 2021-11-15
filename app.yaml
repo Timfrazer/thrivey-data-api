@@ -1,8 +1,0 @@
-runtime: python39
-
-env_variables:
-  BUCKET_NAME: "example-gcs-bucket"
-  API_PORT: 8000
-  API_WORKER_COUNT: 2
-
-entrypoint: bin/run-api.sh
