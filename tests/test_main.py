@@ -1,55 +1,52 @@
 import pytest
 
-mocked_record={
+mocked_record = {
     "id": 0,
     "user": {
-        "user_id": 1,
+        "id": 1,
         "first_name": "John",
         "last_name": "Fakington",
         "user_created": "Sep 14, 2021 4:32 AM",
-        "thrivey_score": 99
+        "thrivey_score": 99,
     },
     "behaviour": {
+        "id": 1,
         "user_id": 1,
         "session_id": 1,
         "user_action": "A1",
         "date_created": "Oct 17, 2021 5:23 AM",
-        "ipv4": "10.0.0.1"
-    }
+        "ipv4": "10.0.0.1",
+    },
 }
 
-
+# /
 def test_root(test_app):
     response = test_app.get("/")
     assert response.status_code == 200
     assert response.json() == {"Thrivey": "OK"}
 
 
-
-def test_validate_valid_doc_returns_success(test_app):
-    response = test_app.post(
-        "/user_behaviour/validate",
-        json=mocked_record,
+# /user_behaviour/json
+def test_get_json_returns_success(test_app):
+    response = test_app.get(
+        "/user_behaviour/json",
     )
     assert response.status_code == 200
-    assert response.json() == {'isValid': True}
+    assert response.json()[0]["id"] == 0
 
 
+# /user_behaviour_10k/json
+def test_paginated_api_should_return_expected_num_records(test_app):
 
-def test_validate_invalid_doc_returns_422(test_app):
+    # Set pagination params
+    page_num = 1
+    page_size = 50
 
-    # Update record with invalid type
-    mocked_record['id'] = "ThisIsAnInvalidType"
-
-    response = test_app.post(
-        "/user_behaviour/validate",
-        headers={"X-Token": "coneofsilence"},
-        json=mocked_record,
+    response = test_app.get(
+        f"/user_behaviour_10k/json?page={page_num}&size={page_size}",
     )
-
-    assert response.status_code == 422
-    assert response.json()['detail'][0]['msg'] == "value is not a valid integer"
-
-
-
-
+    resp_json = response.json()
+    assert response.status_code == 200
+    assert len(resp_json["items"]) == 50
+    assert (resp_json["page"]) == 1
+    assert (resp_json["size"]) == 50

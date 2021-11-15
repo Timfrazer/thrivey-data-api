@@ -1,0 +1,88 @@
+# logging.yml
+version: 1
+
+formatters:
+  simple_formatter:
+    format: "%(asctime)s %(name)s: %(message)s"
+  extended_formatter:
+    format: "%(asctime)s %(name)s %(levelname)s: %(message)s"
+
+handlers:
+  # console_handler:
+  #   class: logging.StreamHandler
+  #   level: DEBUG
+  #   formatter: simple_formatter
+  #   stream: "ext://sys.stdout"
+  console:
+    level: DEBUG
+    class: logging.StreamHandler
+    formatter: extended_formatter
+    stream: ext://sys.stdout
+
+  file_handler:
+    class: logging.FileHandler
+    level: DEBUG
+    mode: w
+    filename: logs/app.log
+    formatter: extended_formatter
+
+# loggers: 
+#   uvicorn: 
+#     access: 
+#       handlers: 
+#         - console
+#       level: INFO
+#       propagate: false
+#     error: 
+#       handlers: 
+#         - console
+#       level: INFO
+#       propagate: true
+#     handlers: 
+#       - console
+#     level: INFO
+
+loggers: 
+  uvicorn: 
+    access: 
+      handlers: 
+        - console
+      level: DEBUG
+
+root:
+  handlers: [console, file_handler]
+  propagate: true
+  level: DEBUG
+
+# --- 
+# disable_existing_loggers: false
+# formatters: 
+#   standard: 
+#     format: "%(asctime)s - %(levelname)s - %(message)s"
+# handlers: 
+#   console: 
+#     class: logging.StreamHandler
+#     formatter: standard
+#     stream: "ext://sys.stdout"
+  
+# loggers: 
+#   # root: 
+#   #   handlers: 
+#   #     - console
+#   #   level: INFO
+#   #   propagate: true
+#   uvicorn: 
+#     access: 
+#       handlers: 
+#         - console
+#       level: INFO
+#       propagate: false
+#     error: 
+#       handlers: 
+#         - console
+#       level: INFO
+#       propagate: true
+#     handlers: 
+#       - console
+#     level: INFO
+# version: 1

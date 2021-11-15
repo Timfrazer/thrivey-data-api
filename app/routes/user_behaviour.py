@@ -1,39 +1,35 @@
+import logging
 from typing import List
-from fastapi import APIRouter
 
+from fastapi_crudrouter import DatabasesCRUDRouter
+
+from app.main import database, user_behaviour_json, user_behaviour_tbl
 from app.models.UserBehaviour import UserBehaviour, UserBehaviourTable
 from app.utils.data_shuffle import restructure_tbl_data
 
-from app.main import SQLALCHEMY_DATABASE_URL
-from app.db.model import user_behaviour_table_model
-from app.db.connection import get_db, init_engine
+user_behaviour_router = DatabasesCRUDRouter(
+    schema=UserBehaviourTable,
+    table=user_behaviour_tbl,
+    database=database,
+)
 
-router = APIRouter()
-
-# database = get_db(SQLALCHEMY_DATABASE_URL)
-# db_metadata = init_engine(SQLALCHEMY_DATABASE_URL)
-# user_behaviour_tbl=user_behaviour_table_model(db_metadata)
+logger = logging.getLogger()
 
 
-# @router.get("/ping")
-# async def pong():
-#     # some async operation could happen here
-#     # example: `notes = await get_all_notes()`
-#     return {"ping": "pong!"}
+@user_behaviour_router.get("/{id}", response_model=List[UserBehaviourTable])
+async def read_user_behaviour():
+    query = user_behaviour_tbl.select()
+    return await database.fetch_all(query)
 
 
-# @router.get("/user_behaviour/table", response_model=List[UserBehaviourTable])
-# async def read_user_behaviour():
-#     query = user_behaviour_tbl.select()
-#     return await database.fetch_all(query)
+@user_behaviour_router.get("/", response_model=List[UserBehaviourTable])
+async def read_user_behaviour():
+    query = user_behaviour_tbl.select()
+    return await database.fetch_all(query)
 
-# @router.get("/user_behaviour/json", response_model=List[UserBehaviour])
-# async def read_user_behaviour_json():
-#     result = await restructure_tbl_data(database, user_behaviour_tbl)
-#     print(result)
-#     return result
 
-# @router.post("/user_behaviour/validate")
-# async def validate_user_behaviour(data: UserBehaviour):
-#     print(f"Type: {type(data)} \n{data}")
-#     return {"isValid": True}
+@user_behaviour_router.post("/validate")
+async def validate_user_behaviour(data: UserBehaviour):
+    logger.info(f"Type: {type(data)} \n{data}")
+    resp = {"model": UserBehaviour.schema()["title"], "isValid": True}
+    return resp

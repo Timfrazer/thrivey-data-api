@@ -41,20 +41,31 @@ Data API built on Python **FastAPI** with local **sqlite** db.
 
 
 
+### API Docs
+API Spec available at:
+http://localhost:8000/docs
+
 ### API Routes
 **Fetch objects**
 [GET]
 ```
 /
-/user/table
-/behaviour/table
-/user_behaviour/table
 /user_behaviour/json
+/user_behaviour/dodgy_endpoint
+/user_behaviour_10k/json
 ```
-**Validate objects**
-[POST]
+
+### Generate Dummy Data
+Generate dummy script usage:
+
 ```
-/user/validate
-/behaviour/validate
-/user_behaviour/validate
+usage: generate_userbehaviour_rows.py [-h] --rows ROWS
 ```
+
+To generate 10000 new JSON Objects run the following command:
+
+```
+python ./bin/generate_userbehaviour_rows.py --rows 10000
+```
+
+Data is available in the `data/` directory

@@ -1,8 +1,6 @@
 import uuid
 
-from sqlalchemy import Column, String, Integer
-from sqlalchemy import Table
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String, Table, Text
 
 
 def user_table_model(metadata) -> Table:
@@ -18,6 +16,7 @@ def user_table_model(metadata) -> Table:
     )
     return user_tbl
 
+
 def behaviour_table_model(metadata) -> Table:
     behaviour_tbl = Table(
         "behaviour",
@@ -32,9 +31,10 @@ def behaviour_table_model(metadata) -> Table:
     )
     return behaviour_tbl
 
+
 def user_behaviour_table_model(metadata) -> Table:
     user_behaviour_tbl = Table(
-        "user_behaviours",
+        "user_behaviour",
         metadata,
         Column("index", Integer, primary_key=True),
         Column("user_id", Integer),
@@ -49,24 +49,13 @@ def user_behaviour_table_model(metadata) -> Table:
     )
     return user_behaviour_tbl
 
-# from db.connection import engine
-# Base = declarative_base()
-# metadata = MetaData()
 
-# class UserBehaviourModel(Base):
-#     __tablename__ = "user_behaviours"
-
-#     index = Column(Integer, primary_key=True, index=True)
-#     user_id = Column(Integer)
-#     first_name = Column(String)
-#     last_name = Column(String)
-#     user_created = Column(String)
-#     thrivey_score = Column(Integer)
-#     user_action = Column(String)
-#     date_created = Column(String)
-#     ipv4 = Column(String)
-
-
-
-
-# # Base.metadata.create_all(engine)
+def user_behaviour_json_model(metadata) -> Table:
+    user_behaviour_json = Table(
+        "user_behaviour_json",
+        metadata,
+        Column("id", Integer, primary_key=True),
+        Column("user", Text),
+        Column("behaviour", Text),
+    )
+    return user_behaviour_json

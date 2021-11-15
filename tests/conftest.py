@@ -1,22 +1,23 @@
-import pytest
-from fastapi.testclient import TestClient
 from multiprocessing import Process
 
-from app.main import app, run_server
+import pytest
+from fastapi.testclient import TestClient
+
+from app.main import api, run_server
 
 
 @pytest.fixture(scope="module")
 def test_app():
-    client = TestClient(app)
+    client = TestClient(api)
     yield client  # testing happens here
 
 
 @pytest.fixture
 def server():
     proc = Process(target=run_server, args=(), daemon=True)
-    proc.start() 
+    proc.start()
     yield
-    proc.kill() # Cleanup after test
+    proc.kill()  # Cleanup after test
 
 
 # import pytest
