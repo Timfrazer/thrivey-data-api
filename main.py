@@ -1,8 +1,9 @@
 from app import *
 
+# Trying to hackily run fastapi uvicorn server on func init..
 run_server()
 
-
+# Handler function when called via http
 def thrivey_test(request):
     """HTTP Cloud Function.
     Args:
