@@ -1,8 +1,10 @@
 import pytest
 
+# See for more information:
+from app.utils import http_error_generator
 
 ###################################
-### 2. Handle failed HTTP Requests           
+### 2. Handle failed HTTP Requests
 ###################################
 # Test description:
 ## We want to test the candidates knowledge of HTTP requests, status codes,
@@ -24,12 +26,9 @@ import pytest
 
 
 ## TODO:
-### Decide if we want to extend this into different scenarios, 
-### where each request outcome will hold a challenge in itself 
+### Decide if we want to extend this into different scenarios,
+### where each request outcome will hold a challenge in itself
 ### That will need to be resolved.
 ### Example:
-### When HTTPException(401, 'Unauthourized Exception') => Why is this failing? 
+### When HTTPException(401, 'Unauthourized Exception') => Why is this failing?
 # Do we need to a auth token in our header?
-
-# See for more information:
-from app.utils import http_error_generator

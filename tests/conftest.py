@@ -1,6 +1,7 @@
+from multiprocessing import Process
+
 import pytest
 from fastapi.testclient import TestClient
-from multiprocessing import Process
 
 from app import api, run_server
 
@@ -14,9 +15,9 @@ def test_app():
 @pytest.fixture
 def server():
     proc = Process(target=run_server, args=(), daemon=True)
-    proc.start() 
+    proc.start()
     yield
-    proc.kill() # Cleanup after test
+    proc.kill()  # Cleanup after test
 
 
 # import pytest
