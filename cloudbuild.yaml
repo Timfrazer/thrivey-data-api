@@ -14,28 +14,28 @@ steps:
     name: "gcr.io/cloud-builders/docker"
     env:
       - "PROJECT_ID=$PROJECT_ID"
-      - "FUNC_NAME=thrivey_test"
-    args: ["build", "-t", "us.gcr.io/$PROJECT_ID/$FUNC_NAME", "."]
+      - "_FUNC_NAME=thrivey_test"
+    args: ["build", "-t", "us.gcr.io/$PROJECT_ID/$_FUNC_NAME", "."]
 
   - id: "docker_push"
     name: "gcr.io/cloud-builders/docker"
     env:
       - "PROJECT_ID=$PROJECT_ID"
-      - "FUNC_NAME=thrivey_test"
-    args: ["push", "us.gcr.io/$PROJECT_ID/$FUNC_NAME"]
+      - "_FUNC_NAME=thrivey_test"
+    args: ["push", "us.gcr.io/$PROJECT_ID/$_FUNC_NAME"]
 
   - id: "cloud_run_deploy"
     name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
     env:
       - "PROJECT_ID=$PROJECT_ID"
-      - "FUNC_NAME=thrivey_test"
+      - "_FUNC_NAME=thrivey_test"
     args:
       [
         "gcloud",
         "run",
         "deploy",
-        "$FUNC_NAME-$BRANCH_NAME",
-        "--image=us.gcr.io/$PROJECT_ID/$FUNC_NAME:latest",
+        "$_FUNC_NAME-$BRANCH_NAME",
+        "--image=us.gcr.io/$PROJECT_ID/$_FUNC_NAME:latest",
         "--cpu=2",
         "--port=80",
         "--memory=2048Mi",
@@ -48,5 +48,5 @@ steps:
         "--revision-suffix=$SHORT_SHA",
         "--set-env-vars=PROJECT_ID=$PROJECT_ID,API_PORT=80",
         "--set-cloudsql-instances=$PROJECT_ID:us-central1:runfastapi",
-        "--service-account=$FUNC_NAME@$PROJECT_ID.iam.gserviceaccount.com",
+        "--service-account=$_FUNC_NAME@$PROJECT_ID.iam.gserviceaccount.com",
       ]
