@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "2726e8dc-12eb-40bf-900f-1eb0825b3cd4",
+		"name": "Thrivey_Local",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/docs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://thrivey-test-r4dnb5jnga-uc.a.run.app",
+					"protocol": "https",
+					"host": [
+						"thrivey-test-r4dnb5jnga-uc",
+						"a",
+						"run",
+						"app"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user_behaviour/json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/user_behaviour/json",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"user_behaviour",
+						"json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user_behaviour/dodgy_endpoint",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/user_behaviour/dodgy_endpoint?http_req_outcome=1",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"user_behaviour",
+						"dodgy_endpoint"
+					],
+					"query": [
+						{
+							"key": "http_req_outcome",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/user_behaviour_10k/json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://0.0.0.0:8000/user_behaviour_10k/json?page=1&size=50",
+					"protocol": "http",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "8000",
+					"path": [
+						"user_behaviour_10k",
+						"json"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "50"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
