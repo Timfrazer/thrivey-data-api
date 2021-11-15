@@ -5,16 +5,13 @@ ENV API_PORT 8000
 ENV API_WORKER_COUNT 2
 ENV PIP_NO_CACHE_DIR=off \
   PIP_DISABLE_PIP_VERSION_CHECK=on \
-  PIP_DEFAULT_TIMEOUT=100 \
-  POETRY_VERSION=1.1
-
-
+  PIP_DEFAULT_TIMEOUT=100 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends netcat && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # System deps:
-RUN pip install poetry==${POETRY_VERSION}} \
+RUN pip install poetry \
     tox
 
 RUN mkdir /thrivey-api
